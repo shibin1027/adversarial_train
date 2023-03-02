@@ -1,0 +1,44 @@
+(new) lorne@PC:/media/hdd/msb3/VMF$ python robustness_sp.py 
+Evaluating...: ./checkpoint/resnet50f1_sp30_best.pth
+<< natural >> Average loss: 0.5636, Predict Success Rate: 8311/10000 (83.11%)
+<< fgsm >> Average loss: 1.1044, Predict Success Rate: 1499/2560 (58.55%)
+<< pgd10 >> Average loss: 1.2112, Predict Success Rate: 1399/2560 (54.65%)
+<< pgd20 >> Average loss: 1.2235, Predict Success Rate: 1385/2560 (54.10%)
+<< cw10 >> Average loss: 1.1555, Predict Success Rate: 1367/2560 (53.40%)
+(new) lorne@PC:/media/hdd/msb3/VMF$ python robustness_sp.py 
+Evaluating...: ./checkpoint/resnet50f1_sp30_final.pth
+<< natural >> Average loss: 0.4314, Predict Success Rate: 8605/10000 (86.05%)
+<< fgsm >> Average loss: 1.2307, Predict Success Rate: 1548/2560 (60.47%)
+<< pgd10 >> Average loss: 1.5068, Predict Success Rate: 1356/2560 (52.97%)
+<< pgd20 >> Average loss: 1.5467, Predict Success Rate: 1324/2560 (51.72%)
+<< cw10 >> Average loss: 1.4406, Predict Success Rate: 1354/2560 (52.89%)
+
+(new) lorne@PC:/media/hdd/msb3/VMF$ python robustness_at.py 
+Evaluating...: ./checkpoint/resnet50_advtrain_best.pth
+<< natural >> Average loss: 0.5651, Predict Success Rate: 8207/10000 (82.07%)
+<< fgsm >> Average loss: 1.1161, Predict Success Rate: 1501/2560 (58.63%)
+<< pgd10 >> Average loss: 1.2236, Predict Success Rate: 1408/2560 (55.00%)
+<< pgd20 >> Average loss: 1.2370, Predict Success Rate: 1393/2560 (54.41%)
+<< cw10 >> Average loss: 1.1678, Predict Success Rate: 1377/2560 (53.79%)
+(new) lorne@PC:/media/hdd/msb3/VMF$ python robustness_at.py 
+Evaluating...: ./checkpoint/resnet50_advtrain_final.pth
+<< natural >> Average loss: 0.4358, Predict Success Rate: 8629/10000 (86.29%)
+<< fgsm >> Average loss: 1.2784, Predict Success Rate: 1521/2560 (59.41%)
+<< pgd10 >> Average loss: 1.5654, Predict Success Rate: 1328/2560 (51.88%)
+<< pgd20 >> Average loss: 1.6049, Predict Success Rate: 1304/2560 (50.94%)
+<< cw10 >> Average loss: 1.5001, Predict Success Rate: 1328/2560 (51.88%)
+
+(new) lorne@PC:/media/hdd/msb3/VMF$ python robustness_cifar100.py 
+Evaluating...: ./checkpoint/resnet50f1_cifar100_sp30_best.pth
+<< natural >> Average loss: 1.6113, Predict Success Rate: 5841/10000 (58.41%)
+<< fgsm >> Average loss: 2.6548, Predict Success Rate: 886/2560 (34.61%)
+<< pgd10 >> Average loss: 2.8146, Predict Success Rate: 822/2560 (32.11%)
+<< pgd20 >> Average loss: 2.8349, Predict Success Rate: 808/2560 (31.56%)
+<< cw10 >> Average loss: 2.6261, Predict Success Rate: 776/2560 (30.31%)
+(new) lorne@PC:/media/hdd/msb3/VMF$ python robustness_cifar100.py 
+Evaluating...: ./checkpoint/resnet50f1_cifar100_sp30_final.pth
+<< natural >> Average loss: 1.4754, Predict Success Rate: 6165/10000 (61.65%)
+<< fgsm >> Average loss: 2.9933, Predict Success Rate: 839/2560 (32.77%)
+<< pgd10 >> Average loss: 3.3650, Predict Success Rate: 726/2560 (28.36%)
+<< pgd20 >> Average loss: 3.4212, Predict Success Rate: 710/2560 (27.73%)
+<< cw10 >> Average loss: 3.1573, Predict Success Rate: 734/2560 (28.67%)
