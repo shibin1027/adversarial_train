@@ -42,4 +42,4 @@ Evaluating...: ./checkpoint/resnet50f1_cifar100_sp30_final.pth
 << pgd10 >> Average loss: 3.3650, Predict Success Rate: 726/2560 (28.36%)
 << pgd20 >> Average loss: 3.4212, Predict Success Rate: 710/2560 (27.73%)
 << cw10 >> Average loss: 3.1573, Predict Success Rate: 734/2560 (28.67%)
-15797896012
+15797896021
