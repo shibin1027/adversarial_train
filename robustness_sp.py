@@ -21,6 +21,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu_id
 
 args.model_checkpoint = './checkpoint/resnet50f1_sp30_final.pth'
 print("Evaluating...:", args.model_checkpoint)
+print('current epsilon:', args.eps)
 
 def craft_adv_samples(data_loader, model, args, attack_method):
     adv_samples = []
@@ -68,7 +69,7 @@ def main():
 
     inference_feat(model, clean_loader, args, note='natural')
 
-    for attack_method in ['fgsm', 'pgd10', 'pgd20', 'cw10']:
+    for attack_method in ['fgsm', 'pgd10']:
         adv_samples, targets, l2_mean = craft_adv_samples(clean_loader, model, args, attack_method)
         if args.cuda:
             adv_samples = adv_samples.cpu()

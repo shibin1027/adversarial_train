@@ -1,0 +1,50 @@
+Evaluating...: ./checkpoint/resnet50f1_sp30_final.pth
+current epsilon: 0.007
+<< natural >> Average loss: 0.4314, Predict Success Rate: 8605/10000 (86.05%)
+<< fgsm >> Average loss: 0.5873, Predict Success Rate: 2049/2560 (80.04%)
+<< pgd10 >> Average loss: 0.5920, Predict Success Rate: 2044/2560 (79.84%)
+Evaluating...: ./checkpoint/resnet50f1_sp30_final.pth
+current epsilon: 0.01
+<< natural >> Average loss: 0.4314, Predict Success Rate: 8605/10000 (86.05%)
+<< fgsm >> Average loss: 0.6576, Predict Success Rate: 1987/2560 (77.62%)
+<< pgd10 >> Average loss: 0.6699, Predict Success Rate: 1976/2560 (77.19%)
+Evaluating...: ./checkpoint/resnet50f1_sp30_final.pth
+current epsilon: 0.02
+<< natural >> Average loss: 0.4314, Predict Success Rate: 8605/10000 (86.05%)
+<< fgsm >> Average loss: 0.9249, Predict Success Rate: 1776/2560 (69.38%)
+<< pgd10 >> Average loss: 1.0135, Predict Success Rate: 1688/2560 (65.94%)
+Evaluating...: ./checkpoint/resnet50f1_sp30_final.pth
+current epsilon: 0.03
+<< natural >> Average loss: 0.4314, Predict Success Rate: 8605/10000 (86.05%)
+<< fgsm >> Average loss: 1.2307, Predict Success Rate: 1548/2560 (60.47%)
+<< pgd10 >> Average loss: 1.5068, Predict Success Rate: 1355/2560 (52.93%)
+Evaluating...: ./checkpoint/resnet50f1_sp30_final.pth
+current epsilon: 0.04
+<< natural >> Average loss: 0.4314, Predict Success Rate: 8605/10000 (86.05%)
+<< fgsm >> Average loss: 1.5487, Predict Success Rate: 1340/2560 (52.34%)
+<< pgd10 >> Average loss: 2.1134, Predict Success Rate: 1072/2560 (41.88%)
+Evaluating...: ./checkpoint/resnet50f1_sp30_final.pth
+current epsilon: 0.05
+<< natural >> Average loss: 0.4314, Predict Success Rate: 8605/10000 (86.05%)
+<< fgsm >> Average loss: 1.8590, Predict Success Rate: 1184/2560 (46.25%)
+<< pgd10 >> Average loss: 2.7710, Predict Success Rate: 821/2560 (32.07%)
+Evaluating...: ./checkpoint/resnet50f1_sp30_final.pth
+current epsilon: 0.06
+<< natural >> Average loss: 0.4314, Predict Success Rate: 8605/10000 (86.05%)
+<< fgsm >> Average loss: 2.1501, Predict Success Rate: 1030/2560 (40.23%)
+<< pgd10 >> Average loss: 3.4118, Predict Success Rate: 665/2560 (25.98%)
+Evaluating...: ./checkpoint/resnet50f1_sp30_final.pth
+current epsilon: 0.07
+<< natural >> Average loss: 0.4314, Predict Success Rate: 8605/10000 (86.05%)
+<< fgsm >> Average loss: 2.4125, Predict Success Rate: 919/2560 (35.90%)
+<< pgd10 >> Average loss: 3.9935, Predict Success Rate: 536/2560 (20.94%)
+Evaluating...: ./checkpoint/resnet50f1_sp30_final.pth
+current epsilon: 0.08
+<< natural >> Average loss: 0.4314, Predict Success Rate: 8605/10000 (86.05%)
+<< fgsm >> Average loss: 2.6403, Predict Success Rate: 825/2560 (32.23%)
+<< pgd10 >> Average loss: 3.9935, Predict Success Rate: 536/2560 (20.94%)
+Evaluating...: ./checkpoint/resnet50f1_sp30_final.pth
+current epsilon: 0.09
+<< natural >> Average loss: 0.4314, Predict Success Rate: 8605/10000 (86.05%)
+<< fgsm >> Average loss: 2.8337, Predict Success Rate: 753/2560 (29.41%)
+<< pgd10 >> Average loss: 3.9935, Predict Success Rate: 536/2560 (20.94%)
